@@ -7,6 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe "ruby_enterprise"
+include_recipe "rvm::install"
 
-ree_gem "svn_auto_checkin"
+rvm_gem "svn_auto_checkin"
