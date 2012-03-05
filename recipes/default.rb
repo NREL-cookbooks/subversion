@@ -18,4 +18,4 @@
 # limitations under the License.
 #
 
-include_recipe "subversion::client"
+include_recipe "subversion::collabnet_client"
