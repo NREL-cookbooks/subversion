@@ -9,6 +9,7 @@ version           "1.0.0"
 end
 
 depends "apache2"
+depends "ssh_known_hosts"
 depends "windows"
 
 recipe "subversion", "Includes the client recipe."
