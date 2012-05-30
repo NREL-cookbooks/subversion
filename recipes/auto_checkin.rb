@@ -11,4 +11,5 @@ include_recipe "rbenv::global_version"
 
 rbenv_gem "svn_auto_checkin" do
   ruby_version node[:rbenv][:install_global_version]
+  options "--source 'http://gems.cttsdev.nrel.gov'"
 end
