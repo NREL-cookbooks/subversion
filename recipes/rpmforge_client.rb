@@ -24,6 +24,6 @@ packages.each do |package_name|
 
   execute "yum install #{package_name}" do
     command "yum -d0 -e0 -y --enablerepo=rpmforge-extras install #{package_name}"
-    not_if "rpm -qa | grep -q '^#{package_name}'"
+    not_if "rpm -qa | grep -q '^#{package_name}-1\.7'"
   end
 end
