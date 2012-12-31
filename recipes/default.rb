@@ -18,4 +18,4 @@
 # limitations under the License.
 #
 
-include_recipe "subversion::rpmforge_client"
+include_recipe "subversion::repoforge_client"
